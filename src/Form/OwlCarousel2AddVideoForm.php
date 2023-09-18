@@ -67,7 +67,7 @@ class OwlCarousel2AddVideoForm extends OwlCarousel2AddItemForm {
       '#default_value' => isset($item['navigation_image_id']) && is_numeric($item['navigation_image_id']) ? ['fids' => $item['navigation_image_id']] : '',
       '#multiple' => FALSE,
       '#uploda_validators' => [
-        'file_validate_extensions' => ['png, gif, jpg, jpeg'],
+        'file_validate_extensions' => ['png', 'gif', 'jpg', 'jpeg'],
       ],
       '#progress_indicator' => 'bar',
       '#progress_message' => $this->t('Please wait...'),
