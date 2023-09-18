@@ -57,7 +57,7 @@ class OwlCarousel2AddImageForm extends OwlCarousel2AddItemForm {
       '#default_value' => $item_id ? $default_file : '',
       '#multiple' => FALSE,
       '#upload_validators' => [
-        'file_validate_extensions' => ['png, gif, jpg, jpeg'],
+        'file_validate_extensions' => ['png', 'gif', 'jpg', 'jpeg'],
       ],
       '#progress_indicator' => 'bar',
       '#progress_message' => $this->t('Please wait...'),
@@ -171,7 +171,7 @@ class OwlCarousel2AddImageForm extends OwlCarousel2AddItemForm {
 
       '#multiple' => FALSE,
       '#uploda_validators' => [
-        'file_validate_extensions' => ['png, gif, jpg, jpeg'],
+        'file_validate_extensions' => ['png', 'gif', 'jpg', 'jpeg'],
       ],
       '#progress_indicator' => 'bar',
       '#progress_message' => $this->t('Please wait...'),
