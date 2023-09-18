@@ -1,0 +1,6 @@
+name: 'Owl Carousel 2'
+type: module
+description: 'Module that implements Owl Carousel 2 sliders.'
+core_version_requirement: ^9 || ^10
+configure: owlcarousel2.settings
+package: 'Carousel'
